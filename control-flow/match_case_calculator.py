@@ -1,8 +1,8 @@
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 operations = input("Choose the operation (+, -, *, /): ")
-match operations:
 
+match operations:
     case "+":
         print(f"The result is {num1 + num2}")
     case "-":
@@ -15,4 +15,4 @@ match operations:
         else: 
             print("Cannot divide by zero.")
     case _:
-        
+        print("Unknown operations")
