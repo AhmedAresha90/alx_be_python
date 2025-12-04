@@ -14,5 +14,5 @@ match op:
         else: 
             print("Cannot divide by zero.")
     case _:
-        print("unknown operator")
+        print("unknown operation")
       
