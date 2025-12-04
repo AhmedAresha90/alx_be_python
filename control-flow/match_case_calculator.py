@@ -1,16 +1,16 @@
-n1 = float(input("Enter the first number: "))
-n2 = float(input("Enter the second number: "))
-op = float(input("Choose the operator (+, -, *, /): "))
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+op = input("Choose the operator (+, -, *, /): ")
 match op :
     case "+" :
-        print(f"the result is {n1 + n2}")
+        print(f"the result is {num1 + num2}")
     case "-" :
-        print(f"the result is {n1 - n2}")
+        print(f"the result is {num1 - num2}")
     case "*" :
-        print(f"the result is {n1 * n2}")
+        print(f"the result is {num1 * num2}")
     case "/" :
-        if n2 != 0:
-            print(f"the result is {n1 / n2}")
+        if num2 != 0:
+            print(f"the result is {num1 / num2}")
         else: 
             print("Cannot divide by zero.")
     case _ :
