@@ -1,6 +1,6 @@
 n1 = float(input("Enter the first number: "))
 n2 = float(input("Enter the second number: "))
-op = input("Enter an operator (+, -, *, /): ")
+op = input("Choose the operator (+, -, *, /): ")
 match op :
     case "+" :
         print(f"the result is {n1 + n2}")
