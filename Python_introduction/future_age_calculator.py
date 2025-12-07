@@ -1,8 +1,4 @@
-# Ask the user for their current age
-age = int(input("How old are you? "))
+age = input("How old are you?")
+future_age = int(age) + 27
 
-# Calculate age in 2050
-future_age = age + 27  # because 2050 - 2023 = 27
-
-# Print the result
 print(f"In 2050, you will be {future_age} years old.")
